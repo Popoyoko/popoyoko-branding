@@ -1,0 +1,25 @@
+{
+  "name": "branding",
+  "version": "1.0.0",
+  "description": "All the assets form the popoyoko'branding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test",
+    "pull-master": "git pull origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Popoyoko/branding.git"
+  },
+  "keywords": [
+    "branding",
+    "colors",
+    "token"
+  ],
+  "author": "Popoyoko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Popoyoko/branding/issues"
+  },
+  "homepage": "https://github.com/Popoyoko/branding#readme"
+}
