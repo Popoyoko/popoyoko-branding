@@ -2,7 +2,8 @@
   "name": "branding",
   "version": "1.0.0",
   "description": "All the assets form the popoyoko'branding",
-  "main": "popoyoko-branding.js",
+  "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo test",
     "start": "node index.js"
