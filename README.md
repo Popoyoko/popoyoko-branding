@@ -12,12 +12,11 @@ In you `package.json` in the script section, add `--load-path=node_modules/popoy
 
 Exemple : `"sass": "sass --load-path=node_modules/popoyoko-branding/ src/ -w"`
 
-## Usage with JS:
+In your main scss file import colors and texts :
 
-Import :
+`@use "colors.scss" as popoyokoColors;`
+`@use "texts.scss" as popoyokoTexts;`
 
-`const branding = require("popoyoko-branding");`
+Then you can use the popoyoko's stylesheet like this exemple:
 
-Usage :
-
-`branding.getColors()` => Return an object with colors and write it to the console.
+`background-color: popoyokoColors.$light;`
