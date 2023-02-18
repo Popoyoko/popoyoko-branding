@@ -1,15 +1,6 @@
 const fs = require("fs");
 const colors = require("./colors.json");
 
-const getColors = () => {
-  console.log("Here are the colors from Popoyoko :\n");
-  for (colorName in colors) {
-    console.log(`${colorName}: ${colors[colorName]}`);
-  }
-  console.log("\n");
-  return colors;
-};
-
 const exportSassColors = () => {
   let sass = "";
   for (const colorName in colors) {
@@ -20,7 +11,3 @@ const exportSassColors = () => {
 };
 
 exportSassColors();
-
-module.exports = {
-  getColors: getColors(),
-};
