@@ -19,7 +19,8 @@ const exportSassColors = () => {
   console.log("\x1b[33m\x1b[1m%s\x1b[0m", "colors.scss generated");
 };
 
+exportSassColors();
+
 module.exports = {
   getColors: getColors(),
-  exportSassColors: exportSassColors(),
 };
