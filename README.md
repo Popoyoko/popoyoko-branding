@@ -1,22 +1,19 @@
 # Popoyoko Branding
 
-All the assets form the popoyoko'branding.
+All the assets form the popoyoko's branding.
 
-## Installation :
+## About this repository
 
-`npm i git@github.com:Popoyoko/branding.git`
+This repository contains all the branding assets for Popoyoko.
 
-## Usage with sass:
+## Installation
 
-In you `package.json` in the script section, add `--load-path=node_modules/popoyoko-branding/` to the to `sass` script.
+You can install theses assets by running:
+`bun add git@github.com:Popoyoko/branding.git`
 
-Exemple : `"sass": "sass --load-path=node_modules/popoyoko-branding/ src/ -w"`
+## Assets
 
-In your main scss file import colors and texts :
+This repository includes:
 
-`@use "colors.scss" as popoyokoColors;`
-`@use "texts.scss" as popoyokoTexts;`
-
-Then you can use the popoyoko's stylesheet like this exemple:
-
-`background-color: popoyokoColors.$light;`
+* Logos
+* Design tokens (colors, typography, etc.)
