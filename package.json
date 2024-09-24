@@ -1,5 +1,5 @@
 {
-  "name": "branding",
+  "name": "@popoyoko/branding",
   "version": "1.0.0",
   "description": "All the assets form the popoyoko'branding",
   "main": "getColors.js",
@@ -22,6 +22,8 @@
     "url": "https://github.com/Popoyoko/branding/issues"
   },
   "homepage": "https://github.com/Popoyoko/branding#readme",
-  "dependencies": {
+  "dependencies": { "configuration": "git@github.com:Popoyoko/config-biome.git" },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.2"
   }
 }
