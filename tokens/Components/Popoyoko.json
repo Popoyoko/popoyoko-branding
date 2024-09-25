@@ -6,6 +6,12 @@
           "value": "{BG.ActionHigh.Initial}",
           "type": "color"
         }
+      },
+      "FG": {
+        "Initial": {
+          "value": "{FG.ActionHigh.Initial}",
+          "type": "color"
+        }
       }
     }
   }

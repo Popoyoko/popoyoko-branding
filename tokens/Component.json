@@ -5,6 +5,12 @@
         "value": "{Components.ButtonPrimary.BG.Initial}",
         "type": "color"
       }
+    },
+    "FG": {
+      "Initial": {
+        "value": "{Components.ButtonPrimary.FG.Initial}",
+        "type": "color"
+      }
     }
   }
 }
