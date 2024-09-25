@@ -11,6 +11,19 @@
         "value": "{Components.ButtonPrimary.FG.Initial}",
         "type": "color"
       }
+    },
+    "Composition": {
+      "value": {
+        "display": "flex-row",
+        "minHeight": "{Clickable.MinHeight}",
+        "maxWidth": "{Clickable.MinWidth}",
+        "paddingTop": "{Popoyoko.Spacing.4}",
+        "paddingBottom": "{Popoyoko.Spacing.4}",
+        "paddingLeft": "{Popoyoko.Spacing.4}",
+        "paddingRight": "{Popoyoko.Spacing.4}",
+        "spacing": "{Popoyoko.Spacing.4}"
+      },
+      "type": "composition"
     }
   }
 }

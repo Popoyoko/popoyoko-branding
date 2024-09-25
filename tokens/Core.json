@@ -14,5 +14,15 @@
         "type": "color"
       }
     }
+  },
+  "Clickable": {
+    "MinHeight": {
+      "value": "44",
+      "type": "number"
+    },
+    "MinWidth": {
+      "value": "44",
+      "type": "number"
+    }
   }
 }

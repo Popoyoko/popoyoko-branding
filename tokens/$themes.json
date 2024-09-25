@@ -17,7 +17,8 @@
     "id": "7dc3e9e5b772918629cab3a17bf27a99498ec03d",
     "name": "Popoyoko",
     "$figmaStyleReferences": {
-      "ButtonPrimary.BG.Initial": "S:caec7d6237d45c5c73237d2e2bdc63e0d32a812c,"
+      "ButtonPrimary.BG.Initial": "S:0f4b8a9e24fc20da723a28f42266e0a400a100c3,",
+      "ButtonPrimary.FG.Initial": "S:9d3cf58e2181f5b65efe510d3d3f2b4c62984874,"
     },
     "selectedTokenSets": {
       "Tools": "source",
