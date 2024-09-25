@@ -16,7 +16,7 @@
       "value": {
         "display": "flex-row",
         "minHeight": "{Clickable.MinHeight}",
-        "maxWidth": "{Clickable.MinWidth}",
+        "minWidth": "{Clickable.MinWidth}",
         "paddingTop": "{Popoyoko.Spacing.4}",
         "paddingBottom": "{Popoyoko.Spacing.4}",
         "paddingLeft": "{Popoyoko.Spacing.4}",
